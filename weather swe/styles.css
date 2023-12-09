@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('ww2bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+p{
+    color: blanchedalmond;
+}
+#weather-container {
+    margin-top: 20px;
+}
+input {
+    padding: 10px;
+     border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 180px;
+    font-size: 1rem;
+}
+
+button{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #63d620;
+    min-width: 300px;
+    min-height: 30px;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
